@@ -1,25 +1,60 @@
-body {
-  max-width: 320px;
-  border: 1px solid;
+* {
+  color: white;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  width: 20%;
   margin: auto;
+  border: 2px solid black;
+  background: #28D453;
 }
 
-body nav {
-  padding: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+header label {
+  display: block;
+  margin: 10px;
 }
 
-body nav li {
+header label span {
+  margin: 5%;
+}
+
+header label:hover {
+  cursor: pointer;
+}
+
+header #check {
   display: none;
-  background-color: red;
+}
+
+header #check:checked ~ .bnav {
+  margin: 0;
+}
+
+header .bnav {
+  position: absolute;
+  width: 10%;
+  margin: -100%;
+}
+
+header .bnav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header .bnav ul li {
+  background-color: #28D453;
+}
+
+header .bnav ul li a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+header .bnav ul li a:hover {
+  background-color: #21D9D0;
 }
 /*# sourceMappingURL=styles.css.map */
