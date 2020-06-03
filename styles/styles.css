@@ -1,0 +1,25 @@
+body {
+  max-width: 320px;
+  border: 1px solid;
+  margin: auto;
+}
+
+body nav {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body nav li {
+  display: none;
+  background-color: red;
+}
+/*# sourceMappingURL=styles.css.map */

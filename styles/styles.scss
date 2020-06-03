@@ -1,0 +1,18 @@
+body {
+    max-width: 320px;
+    border: 1px solid;
+    margin: auto;
+    
+    nav {
+        padding: 5%;
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        li {
+            display: none;
+            background-color: red;
+        }
+    }
+}
